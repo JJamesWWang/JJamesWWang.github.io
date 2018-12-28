@@ -1,1 +1,111 @@
+body {
+  margin: 0;
+  background: #000028;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: #D5C4FF;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #000048;
+  font-size: 24px;
+}
+
+.logo {
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 36px;
+  color: cyan;
+}
+
+.logo img {
+  vertical-align: middle;
+  padding-right: 40px;
+}
+
+header nav {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+header li {
+  display: inline-block;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+
+header a {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:link {
+  color: #9D72FF;
+}
+
+a:visited {
+  color: #9D72FF;
+}
+
+a:hover {
+  background-color: #000028;
+}
+
+a:active {
+  color: darkgreen;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title {
+  padding-bottom: 16px;
+  color: #00F79B;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  background: #000048;
+  font-size: 24px;
+}
+
+footer > * {
+  padding-left: 50px;
+}
+
+.contact {
+  font-size: 36px;
+}
+
+footer ul {
+  padding-left: 50px;
+  display: inline-block;
+}
+
+footer li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 36px;
+}
 
