@@ -79,6 +79,14 @@ main {
 
 }
 
+.hobbies ul {
+  list-style: circle;
+}
+
+.high-school ul {
+  list-style: square;
+}
+
 .blue-jays {
   color: #002D72;
 }
@@ -88,6 +96,18 @@ h1 {
   color: #00F79B;
   font-size: 36px;
   font-weight: bold;
+}
+
+h2 {
+  padding-bottom: 12px;
+  color: #00FFAE;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  padding-bottom: 8px;
+  font-size: 24px;
 }
 
 footer {
