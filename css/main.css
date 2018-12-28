@@ -86,7 +86,7 @@ main {
   color: cyan;
 }
 
-.title {
+h1 {
   padding-bottom: 16px;
   color: #00F79B;
   font-size: 36px;
