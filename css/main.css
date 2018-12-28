@@ -7,11 +7,6 @@ body {
 
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 header {
   display: flex;
@@ -31,12 +26,22 @@ header {
 
 .logo img {
   vertical-align: middle;
-  padding-right: 40px;
+  border-radius: 0 50px 50px 0;
+}
+
+.name {
+  padding-left: 40px;
 }
 
 header nav {
   display: inline-block;
   vertical-align: bottom;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 header li {
@@ -64,7 +69,7 @@ a:hover {
 }
 
 a:active {
-  color: darkgreen;
+  color: cyan;
 }
 
 main {
@@ -73,6 +78,12 @@ main {
   max-width: 700px;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: 'Delius', cursive;
+
+}
+
+.blue-jays {
+  color: cyan;
 }
 
 .title {
@@ -83,11 +94,12 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  min-width: 100%;
   background: #000048;
   font-size: 24px;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer > * {
@@ -99,8 +111,10 @@ footer > * {
 }
 
 footer ul {
-  padding-left: 50px;
   display: inline-block;
+  margin: 0;
+  padding: 0 0 0 50px;
+  list-style: none;
 }
 
 footer li {
