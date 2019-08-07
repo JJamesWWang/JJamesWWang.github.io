@@ -1,19 +1,32 @@
 body {
   margin: 0;
-  background: #000028;
+  background: #080709;
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  color: #D5C4FF;
-
+  color: #e0ceed;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+
+main {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
 
 header {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #000048;
+  background: #29222e;
   font-size: 24px;
 }
 
@@ -21,7 +34,11 @@ header {
   display: inline-block;
   padding-left: 50px;
   font-size: 36px;
-  color: cyan;
+  color: #b657ff;
+}
+
+.name {
+  font-family: "Ubuntu"
 }
 
 .logo img {
@@ -61,11 +78,11 @@ a:visited {
 }
 
 a:hover {
-  background-color: #000028;
+  background-color: #080709;
 }
 
 a:active {
-  color: cyan;
+  color: #b657ff;
 }
 
 main {
@@ -78,28 +95,20 @@ main {
 
 }
 
-.hobbies ul {
-  list-style: circle;
-}
-
 .high-school ul {
   list-style: square;
 }
 
-.blue-jays {
-  color: #002D72;
-}
-
 h1 {
   padding-bottom: 16px;
-  color: #00F79B;
+  color: #f5b0ef;
   font-size: 36px;
   font-weight: bold;
 }
 
 h2 {
   padding-bottom: 12px;
-  color: #00FFAE;
+  color: #8e6da6;
   font-size: 28px;
   font-weight: bold;
 }
@@ -109,17 +118,23 @@ h3 {
   font-size: 24px;
 }
 
+footer, .push {
+  height: 100px;
+}
 footer {
-  background: #000048;
+  background: #29222e;
   font-size: 24px;
 }
 
 footer a {
   text-decoration: none;
+  border-radius: 10px;
 }
 
 footer > * {
+  list-style-position: inside;
   padding-left: 50px;
+  
 }
 
 .contact {
@@ -129,8 +144,8 @@ footer > * {
 footer ul {
   display: inline-block;
   margin: 0;
-  padding: 0 0 0 50px;
   list-style: none;
+  padding-left: 0;
 }
 
 footer li {
