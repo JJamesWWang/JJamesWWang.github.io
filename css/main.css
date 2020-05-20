@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background: #080709;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Delius";
   font-size: 20px;
   color: #e0ceed;
 }
@@ -38,7 +38,7 @@ header {
 }
 
 .name {
-  font-family: "Indie Flower", cursive;
+  font-family: "Delius";
 }
 
 .logo img {
